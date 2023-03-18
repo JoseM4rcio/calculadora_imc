@@ -1,0 +1,84 @@
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #6549ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    padding: 20px 60px 20px 40px;
+    background-color: #0b2876;
+    position: absolute;
+    width: 420px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50vh;
+    transform : translateY(-50%);
+    border-radius: 5px;
+  }
+
+.botao{
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    padding: 18px;
+    background-color: #6549ff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transform : translateY(25%) translateX(15%);
+}
+
+select{
+  width: 178px;
+  height: 30px;
+  font-size: 20px;
+  transform: translateX(70%);
+}
+
+h1{
+  align-items: center;
+  text-align: center;
+  color: #6549ff;
+}
+
+h2{
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+span{
+  text-transform: uppercase;
+  color: #6549ff;
+  margin-left: 130px;
+}
+
+#peso {
+    border: none;
+    width: 175px;
+    height: 30px;
+    font-size: 20px;
+    transform: translateX(70%);
+  }
+
+  #altura {
+    border: none;
+    width: 175px;
+    height: 30px;
+    font-size: 20px;
+    transform: translateX(70%);
+  }
+  #result {
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px;
+  }
+
+  #btn_calcular{
+    width: 330px;
+  }
